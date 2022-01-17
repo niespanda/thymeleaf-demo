@@ -10,7 +10,7 @@ public class UserController {
 	@RequestMapping("/user")
 	public String index(HttpServletRequest request){
 		request.setAttribute("msg","el表达式");
-		return "index.html";
+		return "index";
 	}
 
 }
